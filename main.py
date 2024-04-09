@@ -30,7 +30,7 @@ if __name__ == "__main__":
             tasks = []
             search_subject = input("Search Subject (default = music) : ") or SEARCH_SUBJECT
             search_page_count = int(
-                input("Search Page Count (default = 5) : ") or SEARCH_PAGE_COUNT)
+                input("Search Page Count (default = 1) : ") or SEARCH_PAGE_COUNT)
             print("Scraping ...! Please wait ...!")
             for page_number in range(1, search_page_count + 1):
                 task = asyncio.create_task(
