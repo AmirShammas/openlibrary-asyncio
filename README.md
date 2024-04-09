@@ -14,6 +14,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run `main.py` and enter your optional values for `Search Subject` (default = music) and `Search Page Count` (default = 5).
+Run `main.py` and enter your optional values for `Search Subject` (default = music) and `Search Page Count` (default = 1).
 
 The scraped data will be saved in `data.csv` file.
